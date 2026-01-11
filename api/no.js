@@ -3,7 +3,7 @@ const messages = require('../messages.json');
 const GOLDEN_REJECTION = "NO. (You have unlocked the Golden Rejection. This implies nothing changes, but you are statistically special.)";
 
 module.exports = (req, res) => {
-    // 0.1% chance for Golden Rejection (1 in 1000)
+
     const roll = Math.floor(Math.random() * 1000) + 1;
 
     let message;
