@@ -32,3 +32,4 @@ Thumbs.db
 # Project specific
 scripts
 .agent
+gen.js
